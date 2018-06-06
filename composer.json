@@ -1,8 +1,9 @@
 {
     "name": "1352255400/phpgifcode",
     "description": "gouuse core files",
+    "license": "MIT",
     "type": "library",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "bin": ["src/bin/CodeTool","src/bin/Swoole"],
     "require": {
         "ixudra/curl": "6.*",
