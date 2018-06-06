@@ -30,8 +30,10 @@ if (!empty($code)) {
 	$data = Code::checkCode($code);
 
 	echo json_encode($data);die;
-	
+
 }
+
+<img src="code.png">
 
 
 
