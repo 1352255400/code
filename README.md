@@ -1,5 +1,7 @@
 # php 动态验证码类
 
+<img src="code.png">
+
 #获取验证码
 
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -33,7 +35,6 @@ if (!empty($code)) {
 
 }
 
-<img src="code.png">
 
 
 
