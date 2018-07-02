@@ -1,7 +1,8 @@
 {
-    "name": "1352255400/phpGifCode",
-    "description": "this is a code class",
+    "name": "1352255400/phpgifcode",
+    "description": "gouuse core files",
     "license": "MIT",
+<<<<<<< HEAD
     "authors": [
         {
             "name": "1352255400",
@@ -9,12 +10,44 @@
         }
     ],
     "minimum-stability": "stable",
+=======
+    "type": "library",
+    "version": "2.0.0",
+    "bin": ["src/bin/CodeTool","src/bin/Swoole"],
+>>>>>>> 6eeb58871d8d6c44243b1cd60a12628d5fa77d63
     "require": {
-        "php": ">=5.3.0"
+        "ixudra/curl": "6.*",
+        "zircote/swagger-php": "^2.0",
+        "illuminate/redis": "^5.4",
+        "predis/predis": "1.0.*",
+        "laravel/lumen-framework": ">=5.4",
+        "php": ">=7",
+        "sayid/aliyun-mns-php-sdk": "dev-master",
+        "elasticsearch/elasticsearch": "~5.0",
+        "phpoffice/phpspreadsheet": "^1.0@beta",
+        "mk-j/PHP_XLSXWriter": "^0.32.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "~0.9"
     },
     "autoload": {
-        "psr-0": {
-            "Code": "src/"
+        "psr-4": {
+            "GouuseCore\\": "src/"
         }
+    },
+    "authors": [
+        {
+            "name": "zyb",
+            "email": "449063862@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.org"
     }
+  }
 }
