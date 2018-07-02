@@ -1,5 +1,6 @@
 # php 动态验证码类
 composer require 1352255400/phpgifcode
+
 <img src="code.png">
 
 #获取验证码
